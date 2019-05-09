@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
+<meta charset="uf-8">
+<meta name="viewport" content="width-device-width, initial-scale=1">
+<title>CIT 160 - Assignment Portal - Karen Kunz</title>
+<meta name="description" content="This page serves as an assignment portal home page for CIT 160 - an introduction to programming using JavaScript at BYU-Idaho.">
+
 
 </head>
 <body> </body>
