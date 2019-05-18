@@ -5,8 +5,8 @@ let date = (today.getMonth()+1) + " / " +  today.getDate() + " / " + today.getFu
 document.getElementById('currentdate').innerHTML = date;
 
 // Defining Table
-// INPUT: Get city, address, and zip code from, input box
-// PROCESSING: take values of address labe and put in address format
+// INPUT: Get city, ST, and zipcode from input box
+// PROCESSING: take values of address label and put in general address format
 // OUTPUT: Display address 
 
 function addressBuilder() {
@@ -16,7 +16,7 @@ function addressBuilder() {
 		let state = document.getElementById('state').value;
 		let zipcode = document.getElementById('zipcode').value;
 	//PROCESSING
-		let address = city +', '+ state +', '+ zipcode;
+		let address = city +', '+ state +'  '+ zipcode;
 	
 	//OUTPUT
 	document.getElementById("output").innerHTML = address;
