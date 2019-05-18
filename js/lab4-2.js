@@ -16,7 +16,7 @@ function addressBuilder() {
 		let state = document.getElementById('state').value;
 		let zipcode = document.getElementById('zipcode').value;
 	//PROCESSING
-		let address = city +', '+ state +' '+ &nbsp  &nbsp+' '+ zipcode;
+		let address = city +', '+ state +'  '+ zipcode;
 	
 	//OUTPUT
 	document.getElementById("output").innerHTML = address;
