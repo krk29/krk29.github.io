@@ -40,6 +40,8 @@ h3 {
 
 label {
 	display: block;
-	margin: 5px;
+	margin: 5px;	
+	margin-right: 120px;
+	text-align: right;
 }
 
