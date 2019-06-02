@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width-device-width, initial-scale=1">
+<title>CIT 160 - Assignment Portal - Karen Kunz</title>
+<meta name="description" 
+    content="This page serves as an assignment portal home page for CIT 160 which is an introduction to programming using JavaScript at BYU-Idaho.">
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+	<h1>Week 6: Simple Addition</h1>
+	<h2>Karen Kunz</h2>
+</header>
+<main>
+	<h3>Addition Quiz</h3>
+	What is the sum of: 
+	<br>
+	<br>
+	<input type="text" id="x" size="4" disabled></input> + 
+<input id="y" type="text" size="4" disabled></input> = 
+enter answer here  
+	<input type="text" size="5" id="ans">
+	<br>
+	<br>
+<button onclick="checkSum()">Check Answer</button>
+	<br>
+<br>
+	<button onclick="generateQues()">Reset</button>
+<p>
+	<span id="output"></span></p>
+</main>
+<footer>
+	&copy;2019 &bull; Student Name &bull; BYU-Idaho &bull; CIT 160 &bull; <span id="currentdate"></span>
+</footer>
+<script src="js/lab6-1.js"></script>

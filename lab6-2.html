@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width-device-width, initial-scale=1">
+<title>CIT 160 - Assignment Portal - Karen Kunz</title>
+<meta name="description" 
+    content="This page serves as an assignment portal home page for CIT 160 which is an introduction to programming using JavaScript at BYU-Idaho.">
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+
+<header>
+	<h1>Week 6: What Shoes to Wear?</h1>
+	<h2>Karen Kunz</h2>
+</header>
+<main>
+	<h3>Best Footwear for Today's Weather</h3>
+	<label>Weather:  
+	<select id="weather">
+	<option value="">--Choose Type of Weather--</option>
+		<option value="hot">hot</option>
+		<option value="rain">rain</option>
+		<option value="snow">snow</option>
+		<option value="cool">cool</option>
+	</select>
+</label>
+	<label><button onclick="shoechoice()">Today's Shoe Choice</button></label>
+	<hr>
+<p><span id="output"></span></p>
+</main>
+<footer>
+	&copy;2019 &bull; Student Name &bull; BYU-Idaho &bull; CIT 160 &bull; <span id="currentdate"></span>
+</footer>
+<script src="js/lab6-2.js"></script>

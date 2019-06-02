@@ -5,9 +5,9 @@ let date = (today.getMonth()+1) + " / " +  today.getDate() + " / " + today.getFu
 document.getElementById('currentdate').innerHTML = date;
 
 // Defining Table
-// INPUT: Get first name from input box
-// PROCESSING: Add first name in favorite scripture on click
-// OUTPUT: Display the with first name 
+// INPUT: Get width and length to compute total acres
+// PROCESSING: compute acres 
+// OUTPUT: Display total acres
 
 function insertName() {
 	//INPUT
