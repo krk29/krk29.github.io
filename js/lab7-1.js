@@ -22,7 +22,7 @@ function calculate() {
 let salestax = .06;
 let sub = parseFloat(document.getElementById("subtotal").value);
 
-if (day[dayOfWeek] == "Tuesday" || day[dayOfWeek] == "Wednesday" )  {
+if ((day[dayOfWeek] == "Tuesday" || day[dayOfWeek] == "Wednesday" ) && sub > 50) {
 let disc = .10;
 let subdisc = sub * disc;
 let newsub = sub - subdisc; 
