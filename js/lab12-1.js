@@ -1,16 +1,10 @@
-//INPUT create an array of integers
-//PROCESSING write code that identifies the first integer in an array list and the last integer and adds the two integers together
-//OUTPUT show sum of integers first and last
 
-let list = new Array(8);
-let alist = [15, 26, 33, 67, 91, 22, 67, 28, 40];
-document.getElementById('arrayList').innerHTML = "Array:" + [alist];
+//PROCESSING create a function and an array list to return the sum of the first integer [0] and the last integer in an array [list - 1].
+//OUTPUT show sum of integers first and last.
 
-let sum = 0;
-for (let i = 0; i < alist.length; i++) {
-    sum += alist[0] + alist[8];
-   }
+let list = [38, 20, 3, 60, 11, 45, 98, 29];
+document.getElementById("output").innerHTML = addEnds(list);
 
-   function addEnds(alist) {
-       document.getElementById("output").innerHTML = sum;
-	}
+function addEnds(list) {
+return list [0] + list[list.length - 1];
+}
