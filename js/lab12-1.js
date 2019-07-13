@@ -3,7 +3,7 @@
 //OUTPUT show sum of integers first and last.
 
 let list = [38, 20, 3, 60, 11, 45, 98, 29];
-document.getElementById("arrayList").innerHTML = list;
+document.getElementById("aList").innerHTML = list;
 document.getElementById("output").innerHTML = addEnds(list);
 
 function addEnds(list) {
